@@ -1,0 +1,66 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav-bar {
+  margin-bottom: 20px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.stock-container {
+  margin-bottom: 20px;
+}
+
+.stock-selector {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.stock-selector select, .stock-selector input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.chart-container {
+  height: 400px;
+  margin-top: 20px;
+}
+
+.heatmap-container {
+  margin-top: 20px;
+}
+
+.time-input {
+  width: 80px;
+}
+
+.stock-info {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
